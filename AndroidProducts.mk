@@ -3,11 +3,11 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-
+AndroidProducts.mk
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_martini.mk
+    $(LOCAL_DIR)/cherish_martini.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_martini-user \
-    aosp_martini-userdebug \
-    aosp_martini-eng
+    cherish_martini-user \
+    cherish_martini-userdebug \
+    cherish_martini-eng
